@@ -46,6 +46,7 @@ namespace Tyuiu.RogovAYu.Sprint2.Task1.V26
             }
             Console.WriteLine("*****************************************************************************");
             Console.ReadKey();
+
         }
     }
 }
