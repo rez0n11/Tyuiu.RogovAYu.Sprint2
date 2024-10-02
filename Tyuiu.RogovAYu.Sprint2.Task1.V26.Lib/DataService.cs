@@ -5,7 +5,7 @@ namespace Tyuiu.RogovAYu.Sprint2.Task1.V26.Lib
     {
         public bool[] GetLogicOperations(int a, int b, int c, int d)
         {
-            return [a == b | a == a, b == b & c == c, a == a || a == b, a == b && a == a, !(a == a), a == b ^ a == b];
+            return [a == b | a == a, b == b & c == c, a == a || a == b, a == b && a == a, !(a == b), a == b ^ a == b];
         }
     }
 }
