@@ -5,7 +5,7 @@ namespace Tyuiu.RogovAYu.Sprint2.Task0.V20.Lib
     {
         public bool[] GetCompareOperations(int x, int y)
         {
-            return [x == y, x != y, x < y, x > y, x <= y, x >= y];
+            return [x/5 + 60 == y, x/5+60 != y, x/5 < y, x/5 > y, x/5 <= y, x/5 >= y];
         }
     }
 }
