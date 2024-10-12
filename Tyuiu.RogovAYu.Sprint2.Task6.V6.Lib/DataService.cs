@@ -9,7 +9,7 @@ namespace Tyuiu.RogovAYu.Sprint2.Task6.V6
             switch (m)
             {
                 case 1: { a = " пик"; break; }
-                case 2: { a = ""; break; }
+                case 2: { a = " треф"; break; }
                 case 3: { a = " бубен"; break; }
                 case 4: { a = " червей"; break; }
             }
@@ -25,7 +25,7 @@ namespace Tyuiu.RogovAYu.Sprint2.Task6.V6
                 case 13: { b = "король"; break; }
                 case 14: { b = "туз"; break; }
             }
-            return (a + b);
+            return (b + a);
         }
     }
 }
